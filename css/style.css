@@ -1,0 +1,134 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'BigShoulders';
+    font-family: 'LexendDeca';
+}
+@font-face {
+    font-family: 'BigShoulders';
+    src: url(/fonts/BigShoulders/BigShouldersDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: 'LexendDeca';
+    src: url(/fonts/LexendDeca/LexendDeca-Regular.ttf);
+}
+.attribution { 
+    margin-top: 2rem;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    text-decoration: none;
+    color: hsl(228, 45%, 44%); 
+}
+.cars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 75px;
+}
+.carSedan {
+   padding: 3rem 4rem 2.5rem 3rem;
+   background-color: hsl(31, 77%, 52%);
+   font-size: 15px;  
+   flex: 20%;  
+   border-radius: 8px 0px 0px 8px;
+   color: hsla(0, 0%, 100%, 0.75);
+}
+.carSedan p {
+    font-family: 'LexendDeca';
+    margin-bottom: 3rem;
+}
+.carSedan button {
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+    padding: 16px 32px;
+    font-family: 'LexendDeca';
+    background-color: hsl(0, 0%, 95%);
+}
+.carSedan button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    font-family: 'LexendDeca';
+    transition: 0.4s;
+}
+.carSuv {
+    padding: 3rem 4rem 2.5rem 3rem;
+    background-color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    flex: 20%;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.carSuv button {
+    font-size: 15px;
+    padding: 16px 32px;
+    color:hsl(184, 100%, 22%);
+    font-family: 'LexendDeca';
+    background-color: hsl(0, 0%, 95%);
+}
+.carSuv button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    font-family: 'LexendDeca';
+    transition: 0.4s;
+}
+.carSuv p {
+    font-family: 'LexendDeca';
+    margin-bottom: 3rem;
+}
+.carLuxury {
+    padding: 3rem 4rem 2.5rem 3rem;
+    background-color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    flex: 20%;
+    border-radius: 0px 8px 8px 0px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.carLuxury button {
+    font-size: 15px;
+    color:hsl(179, 100%, 13%);
+    padding: 16px 32px;
+    font-family: 'LexendDeca';
+    background-color: hsl(0, 0%, 95%);
+}
+.carLuxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    font-family: 'LexendDeca';
+    transition: 0.4s;
+}
+.carLuxury p {
+    font-family: 'LexendDeca';
+    margin-bottom: 3rem;
+}
+.text h2 {
+    font-family: 'BigShoulders';
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5rem;
+}
+.button {
+    border-radius: 30px;
+    border: none;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+@media (max-width: 800px) {
+    .cars {
+      align-items: center;
+      margin-left: 2rem;
+      margin-right: 2rem;   
+    }
+    .carSedan, .carSuv, .carLuxury {
+        flex: 20%;
+        padding: 3rem 4rem 2.5rem 3rem;
+    }
+    .carSedan {
+      border-radius: 8px 8px 0px 0px;
+    }
+    .carLuxury {
+      border-radius: 0px 0px 8px 8px;
+    }
+  }
