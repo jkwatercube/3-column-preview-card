@@ -5,11 +5,11 @@ body {
 }
 @font-face {
     font-family: 'BigShoulders';
-    src: url(/fonts/BigShoulders/BigShouldersDisplay-Bold.ttf);
+    src: url(fonts/BigShoulders/BigShouldersDisplay-Bold.ttf);
 }
 @font-face {
     font-family: 'LexendDeca';
-    src: url(/fonts/LexendDeca/LexendDeca-Regular.ttf);
+    src: url(fonts/LexendDeca/LexendDeca-Regular.ttf);
 }
 .attribution { 
     margin-top: 2rem;
